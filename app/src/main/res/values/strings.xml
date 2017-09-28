@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">SDSU Practice Questions</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="log_in">Log in</string>
+    <string name="name">Name</string>
+    <string name="redid">RedID</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="discussion">Discussion</string>
+    <string name="question">Question</string>
+    <string name="setting">Setting</string>
+    <string name="add">Add</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="practice">Practice</string>
+    <string name="search">Search</string>
+    <string name="log_out">Log out</string>
+    <string name="more">More</string>
+    <string name="department">Department</string>
+    <string name="chapter">Chapter</string>
+    <string name="class_title">Class</string>
+    <string name="subject">Subject</string>
+    <string name="add_question">Add Question</string>
+    <string name="semester">Semester</string>
+    <string name="year">Year</string>
+    <string name="course_number">Course number</string>
+    <string name="course_title">Course title</string>
+    <string name="course">Course</string>
+    <string name="add_course">Add course</string>
+    <string name="question_text">Question Text</string>
+    <string name="add_choice">Add choice</string>
+    <string name="question_title_or_chapter">Question title or Chapter</string>
+    <string name="enter_answer">Enter answer</string>
+    <string name="clear_choice">Clear Choice</string>
+
+
+    <string name="multiple_choice">Multiple Choice</string>
+    <string name="fill_in">Fill In</string>
+    <string name="correct_answer">Correct answer</string>
+    <string name="delete">Delete</string>
+    <string name="explanation">Explanation</string>
+    <string name="question_type">Question Type</string>
+    <string name="done">Done</string>
+    <string name="send">Send</string>
+    <string name="message">Message</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="sdsu_practice_questions">SDSU\nPractice\nQuestions</string>
+    <string name="show_questions">Show Questions</string>
+    <string name="select_department">Select Department</string>
+    <string name="select_course">Select Course</string>
+    <string name="reload">Reload</string>
+    <string name="select_semester">Select semester</string>
+    <string-array name="question_types">
+        <item>@string/multiple_choice</item>
+        <item>@string/fill_in</item>
+    </string-array>
+</resources>

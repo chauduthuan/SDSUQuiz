@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.thuanpc.sdsupracticequestions.AddCourseActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/select_department"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent">
+            <TextView
+                android:text="@string/department"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+            <Spinner
+                android:id="@+id/department_spinner"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/select_semester"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/semester"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+            <Spinner
+                android:id="@+id/semester_spinner"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/year"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/year_edit_text"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:inputType="number"
+                android:nextFocusDown="@+id/course_title_edit_text"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/course_number"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/course_number_edit_text"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:inputType="number"
+                android:nextFocusDown="@+id/course_title_edit_text"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:text="@string/course_title"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/course_title_edit_text"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:inputType="text"
+                android:maxLines="1"/>
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/add"/>
+
+
+</LinearLayout>

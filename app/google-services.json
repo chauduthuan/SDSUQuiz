@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "949014525526",
+    "firebase_url": "https://sdsupracticequestions.firebaseio.com",
+    "project_id": "sdsupracticequestions",
+    "storage_bucket": "sdsupracticequestions.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949014525526:android:8d0c6d94847fa843",
+        "android_client_info": {
+          "package_name": "com.example.thuanpc.sdsupracticequestions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949014525526-va15fjbf0anll5uale52jf0ml8n2h55j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thuanpc.sdsupracticequestions",
+            "certificate_hash": "f7530e42cccb0277ba5b7c0153546fe4264aac7d"
+          }
+        },
+        {
+          "client_id": "949014525526-ou0qk0u97la294o86p90d8ia8h65kebd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACrXA-VRTjyjAEnua_4ZpQ1OKxPL5ZNzU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949014525526-ou0qk0u97la294o86p90d8ia8h65kebd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
